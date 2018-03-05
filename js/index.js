@@ -114,11 +114,6 @@ $('.icon-volume').onclick = function(){
 };
 $('.vol').addEventListener("click",vol,true);
  function vol(e){
-<<<<<<< HEAD:js/index.js
- 	console.log(e.target)
-=======
-	console.log(e.target);
->>>>>>> 71c64d6138c7671938b66d063517ad9eb8ebebed:js/index.js
 	audio.volume = (115-e.offsetY)/115;
 	var height = 115 - e.offsetY;
 	$('.vol-bar').style.height = height + 'px';
@@ -130,8 +125,4 @@ function addCursor(){
 		}
 	}
 	li[musicIndex].classList.add('cursor');
-<<<<<<< HEAD:js/index.js
 }
-=======
-}
->>>>>>> 71c64d6138c7671938b66d063517ad9eb8ebebed:js/index.js
