@@ -1,0 +1,122 @@
+* {
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+p {
+	text-align: center;
+	color: orange;
+	padding:10px;
+	font-size: 20px;
+}
+html,body {
+	width: 100%;
+	height: 100%;
+}
+.main {
+	position: relative;
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	background: #eee;
+	opacity: 0.9;
+}
+.img {
+	height:100px;
+}
+.console {
+	display: flex;
+	top: 40px;
+	left: 20px;
+	text-align: center;
+}
+.console .iconfont {
+	width:25%;
+	margin:20px;
+	font-size:40px;
+}
+.cover {
+	padding-top: 300px;
+	width: 100%;
+	height: 100%;
+	background: url(http://img2.imgtn.bdimg.com/it/u=1979766519,1448725463&fm=27&gp=0.jpg) no-repeat;
+	background-size: 100% 100%;
+	
+}
+ul {
+	list-style-type: none;
+	color:#fff;
+	margin: 0 auto;
+	width: 400px;
+	background: #125690;
+	cursor: pointer;
+	text-align: center;
+}
+li {
+	position: relative;
+}
+li:hover {
+	background: #905612;
+}
+.progress {
+	margin: 0 auto;
+	width: 90%;
+	height: 4px;
+	background-color: #aaa;
+	top: 100px;
+	cursor: pointer;
+}
+.progress-bar {
+	width:0;
+	height:4px;
+	background-color: orange;
+}
+.iconfont:hover {
+	color: red;
+	cursor: pointer;
+}
+.vol {
+	display: none;
+	position: absolute;
+	left:346px;
+	bottom: 178px;
+	height: 115px;
+	width:4px;
+	background-color: #aaa;
+	cursor: pointer;
+}
+.vol-bar,.op {
+	display: none;
+	position: absolute;
+	bottom: 0;
+	background-color: orange;
+	z-index: 2;
+	width: 4px;
+	height: 115px;
+}
+
+.cursor::before {
+	content:'';
+	position:absolute;
+	background-color: red;
+	width: 10px;
+	height: 21px;
+	top:0;
+	left:0;
+
+}
+.time {
+	text-align: right;
+}
+.op {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 3;
+	opacity: 0;
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> 71c64d6138c7671938b66d063517ad9eb8ebebed
